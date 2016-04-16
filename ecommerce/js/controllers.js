@@ -38,5 +38,8 @@ app
   desc:"Ecran 14 Full HD﻿ - Processeur Intel Core i7-4710MQ 4è Gén, up to 3.5 Ghz, 6 Mo de mémoire cache - 8 Go de mémoire - Disque 1 To - Carte graphique NVIDIA GeForce GT 730M﻿, 1 Go de mémoire dédiée - Graveur DVD - Lecteur de cartes - Wifi - Bluetooth - HDMI - USB 3.0 - Windows 7 Pro upgrade to Windows 8 Pro﻿ - Garantie 3 ans - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"};
 
 }).controller("panierCtrl", function ($scope) {
-
+$scope.articles=[{marque:"HP",Available:"Available",quantity:"1"},
+{marque:"Dell",Available:"Not Available",quantity:"2"},
+{marque:"Lenovo",Available:"Available",quantity:"5"},
+{marque:"Asus",Available:"Available",quantity:"3"}];
 });

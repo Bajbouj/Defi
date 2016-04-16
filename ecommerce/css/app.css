@@ -33,7 +33,7 @@ width: 80%;
 height: 28px;
 border-radius: 7px;
 margin-top: 13px;
-margin-right: 180px;
+margin-left: 200px;
 }
 body{background-color: #fff}
 /*Surcharge de la class container-fluid. j'ai changé le padding left et droite à 0*/
@@ -56,3 +56,6 @@ h3,h4{font-weight:bold;
 font-size:1.7em;}
 fieldset{margin-top:30px;}
 legend {color:#69a74e; }
+table tr th {width:200px}
+#panier img{float:left;
+margin-right:30px;}
