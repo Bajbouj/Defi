@@ -1,8 +1,8 @@
   <div ng-include="'pages/navbar-top.html'"></div>
-<div class="row">
+<div class="row row-block">
   <div class="col-md-12 col-sm-12 col-xs-12">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
+        <!-- Indicateurs -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -10,7 +10,7 @@
           <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
-        <!-- Wrapper for slides -->
+        <!-- les images  -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img src="images/pc1.jpg" alt="hp" width="460" height="345">
@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <!-- Left and right controls -->
+        <!-- navigation droite et gauche de la carousel -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -39,10 +39,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-
-
-
-
   </div>
 </div>
+<div ng-include="'pages/article.html'"></div>

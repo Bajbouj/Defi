@@ -28,8 +28,11 @@ app
 
 }).controller("articleCtrl", function ($scope) {
 
-}).controller("produitCtrl", function ($scope) {
-
+}).controller("produitCtrl", function ($scope,$resource) {
+  //consomation d'un fichier json
+var p= $resource('pcs.json');
+$scope.pcs=p.query();
+//console.log(user);
 }).controller("panierCtrl", function ($scope) {
 
 });

@@ -26,9 +26,10 @@ font-family: monospace;
 /*j'ai ajouté une nouvelle classe afin de remplacer la couleur bleu celle de bootstrap par la couleur vert */
 .btn-ins{
   background-color: #69a74e;
-color:#fff}
-/*j'ai augumenté le margin dela formulaire située dans la div d'id container afin d'avoir un espace entre le header et la div container*/
-.container form{margin:30px 0;}
+color:#fff;
+float:right;
+padding:10px;
+border-radius: 10px;}
 
 /*j'ai définit le style de la barre de recherche:largeur responsive longueur de 28px les points de la bordure sont ronds...*/
 .search {
@@ -39,7 +40,7 @@ border-radius: 7px;
 margin-top: 13px;
 margin-right: 180px;
 }
-body{background-color: #E6E6E6}
+body{background-color: #fff}
 /*Surcharge de la class container-fluid. j'ai changé le padding left et droite à 0*/
 .container-fluid {
     margin-right: auto;
@@ -49,6 +50,12 @@ body{background-color: #E6E6E6}
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 20%;
+    width: 30%;
     margin: auto;
 }
+.row-block{
+
+    margin-top: 50px;
+}
+h3,h4{font-weight:bold;
+font-size:1.7em;}
