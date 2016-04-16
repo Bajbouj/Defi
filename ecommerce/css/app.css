@@ -43,19 +43,24 @@ body{background-color: #fff}
     padding-left: 0;
     padding-right: 0;
 }
+/*centré les images dans la carousel , la taille de la carousel est fix à 30 % et il est aussi responsive*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 30%;
     margin: auto;
 }
+
 .row-block{
 
     margin-top: 50px;
 }
+/*style des balise h3 et h4 */
 h3,h4{font-weight:bold;
 font-size:1.7em;}
 fieldset{margin-top:30px;}
-legend {color:#69a74e; }
-table tr th {width:200px}
+.logo,legend {color:#69a74e; }
+/*elargir la taille des case du tableau*/
+table tr th {width:200px;}
+/*flotter le tableau à droite de l'image*/
 #panier img{float:left;
 margin-right:30px;}
