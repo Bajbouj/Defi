@@ -3,7 +3,7 @@
   <h3>Liste des Articles</h3><br>
   <div class="row" >
     <div class="col-sm-3"  ng-repeat="pc in pcs" >
-    <a ui-sref="produit">
+    <a ui-sref="produit ">
        <img src="{{pc.url}}" class="img-responsive" style="width:100%" alt="Image">
      </a>
       <div class="well" >
@@ -12,7 +12,7 @@
        <p>{{pc.disponible}}</p>
       </div>
       <div class="row">
-        <div class="col-sm-12"><button type="button" class="btn-ins">  <img src="images/add.png" />&nbsp;&nbsp;Add to panel</button></div>
+        <div class="col-sm-12"><button type="button" class="btn-ins" ui-sref="panier">  <img src="images/add.png" />&nbsp;&nbsp;Add to panel</button></div>
       </div>
   </div>
   </div>

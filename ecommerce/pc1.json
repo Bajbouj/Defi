@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "marque": "HP",
+    "prix": "1200 DT",
+    "disponible": "Available",
+	"url":"http://www.tunisianet.com.tn/44697-thickbox/pc-portable-hp-pavilion-15-ab209nk-i5-6e-gen-12-go-windows-10-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 ﻿HD LED - Processeur Intel Core i5-6200U﻿ 6é Gén, up to 2.8 Ghz, 3Mo de mémoire cache - 12 Go de mémoire - Disque 1 To﻿﻿ - Carte graphique NVIDIA GeForce 940M, 4 Go de mémoire DDR3L dédiée﻿ - Graveur DVD - Lecteur de cartes - Wifi - Bluetooth - Ethernet﻿ - 2xUSB 3.0 - HDMI - Windows 10 Famille 64﻿ - Garantie 1 an﻿﻿ - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+
+  },
+  {
+    "id": 2,
+     "marque": "Lenovo",
+    "prix": "1200 DT",
+    "disponible": "Available",
+    "url":"http://www.tunisianet.com.tn/49438-thickbox/pc-portable-thinkpad-t440p-i7-8-go-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 14 Full HD﻿ - Processeur Intel Core i7-4710MQ 4è Gén, up to 3.5 Ghz, 6 Mo de mémoire cache - 8 Go de mémoire - Disque 1 To - Carte graphique NVIDIA GeForce GT 730M﻿, 1 Go de mémoire dédiée - Graveur DVD - Lecteur de cartes - Wifi - Bluetooth - HDMI - USB 3.0 - Windows 7 Pro upgrade to Windows 8 Pro﻿ - Garantie 3 ans - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+  },
+  {
+    "id": 3,
+     "marque": "Dell",
+    "prix": "1200 DT",
+    "disponible": "Not Available",
+   "url":"http://www.tunisianet.com.tn/47573-thickbox/pc-portable-asus-x553sa-quad-core-4-go-rose-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 HD LED - Processeur Intel Quad Core N3150﻿, up to 2.08 Ghz, 2 Mo de mémoire cache - Mémoire 4 Go - Disque 500 Go - Carte graphique Intel HD Graphics - Lecteur de cartes - Wifi - Bluetooth - USB 3.0 - HDMI - Webcam avec Micro - Couleur Rose - Garantie 2 ans﻿ - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+  },
+  {
+    "id": 4,
+     "marque": "HP",
+    "prix": "1200 DT",
+    "disponible": "Not Available",
+    "url":"http://www.tunisianet.com.tn/44424-thickbox/pc-portable-hp-envy-15-ae101nk-i7-6e-gen-8-go-sac-a-dos-hp-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 ﻿HD LED- Processeur Intel Core i7-6500U﻿ 6è Gén, up to 3.1Ghz, 4Mo - 8Go de mémoire - Disque SSHD 1To﻿﻿ - Carte graphique NVIDIA GeForce GTX950M, 4Go de mémoire dédiée﻿ - Graveur DVD - Wifi - Bluetooth - USB 3.0 - HDMI - Clavier rétroéclairé﻿ - Windows 10 Famille 64﻿ - Garantie 1an - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt + Sac à dos HP K5Q03AA"
+  },
+  {
+    "id": 5,
+     "marque": "Dell",
+    "prix": "1800 DT",
+    "disponible": "Available",
+	"url":"http://www.tunisianet.com.tn/46630-thickbox/pc-portable-dell-inspiron-5559-i7-6e-gen-8-go-bleu-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 - Processeur Intel Core i7-6500U 6è Génération, up to 3.1 Ghz, 4 Mo de mémoire cache - Mémoire 8 Go - Disque 1 To - Carte graphique AMD Radeon R5 M335﻿, 4 Go de mémoire dédiée﻿ - Graveur DVD - Lecteur de cartes - HDMI - USB 3.0 - Wifi - Bluetooth - Webcam avec Micro - Couleur Bleu - Garantie 1 an﻿﻿ -"
+  },
+  {
+    "id": 6,
+     "marque": "Asus",
+    "prix": "2200 DT",
+    "disponible": "Not Available",
+	"url":"http://www.tunisianet.com.tn/39868-thickbox/pc-portable-asus-x555lj-i7-5e-gen-8-go-rouge-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 HD LED - Processeur Intel Core i7-5500U﻿, up to 3 Ghz, 4 Mo de mémoire cache - Mémoire 8 Go - Disque 1 To - Carte graphique Nvidia GeForce 920M, 2 Go de mémoire dédiée - Graveur DVD - Lecteur de cartes - Wifi - Bluetooth - USB 3.0 - HDMI - Webcam avec Micro - Couleur Rouge - Garantie 2 ans﻿﻿ - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+  },
+  {
+    "id": 7,
+    "marque": "Lenovo",
+    "prix": "1600 DT",
+    "disponible": "Available",
+	"url":"http://www.tunisianet.com.tn/42835-thickbox/pc-portable-lenovo-g5030-dual-core-2-go-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 HD LED - Processeur Intel Celeron Dual Core N2840, up to 2.58 GHz , 1 Mo de mémoire cache - Mémoire 2 Go - Disque 500 Go - Carte graphique Intel HD Graphics﻿ - Wifi - Bluetooth - Webcam HD avec Micro - HDMI - USB 3.0 - Couleur Noir - Garantie 1 an - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+  },
+  {
+    "id": 8,
+    "marque": "Acer",
+    "prix": "1000 DT",
+    "disponible": "Not Available",
+	"url":"http://www.tunisianet.com.tn/43689-thickbox/pc-portable-acer-aspire-e5-571-i7-5e-gen-8-go-noir-licence-bitdefender-1-an.jpg",
+	"description":"Ecran 15.6 HD LED - Processeur Intel Core i7-5500U, up to 3 GHz, 4 Mo de mémoire cache - Mémoire 8 Go - Disque 1 To - Carte graphique Nvidia GeForce 820M, 2 Go de mémoire dédiée - Graveur DVD - Lecteur de cartes  - HDMI - Wifi - Bluetooth - Webcam avec micro - Couleur Noir - Garantie 1 an﻿ - Gratuit: Licence Antivirus BitDefender 1 an d'une valeur de 33Dt"
+  }
+
+]

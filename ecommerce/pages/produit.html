@@ -1,14 +1,15 @@
 <div ng-include="'pages/navbar-top.html'"></div>
 <div class="container">
-  <h3>Article name</h3>
+  <h3>{{pc1.marque}}</h3>
 <br><br>
   <div class="row">
 
-<div class="col-xs-4" ng-repeat="p in pcs"><img ng-src="{{p.url}}"  class="img-responsive"/></div>
+<div class="col-xs-4">
+  <img ng-src="{{pc1.url}}"  class="img-responsive"/></div>
 <div class="col-xs-5">
   <h4>Description</h4>
   <p >
-    hhhhhhhhhhh {{p.disponible}}
+{{pc1.desc}}
   </p>
 </div>
 
