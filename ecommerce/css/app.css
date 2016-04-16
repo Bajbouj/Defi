@@ -1,0 +1,54 @@
+/* j'ai changé la coleur de background en blue et le padding haut et bas */
+header{
+  background-color:#3a5795;
+  padding:15px 0;
+}
+/*j'ai surchargé le style de boutton celle de bootstrap en changeant la couleur du text le background(hérité de son parent) ainsi la couleur de bordure*/
+.btn-primary {
+    color: #fff;
+    background-color: inherit;
+    border-color: #3a5795;
+}
+/*j'ai changé la couleur, la taille et le style d'écriture celle des labels et le text entouré d'un span dans le boutton*/
+label, .btn-primary span{
+   color: #fff;
+font-size:14px;
+font-family: monospace;
+}
+/**/
+.fb{
+  color: #fff;
+  font-weight:bold;
+  font-size:24px;
+}
+
+
+/*j'ai ajouté une nouvelle classe afin de remplacer la couleur bleu celle de bootstrap par la couleur vert */
+.btn-ins{
+  background-color: #69a74e;
+color:#fff}
+/*j'ai augumenté le margin dela formulaire située dans la div d'id container afin d'avoir un espace entre le header et la div container*/
+.container form{margin:30px 0;}
+
+/*j'ai définit le style de la barre de recherche:largeur responsive longueur de 28px les points de la bordure sont ronds...*/
+.search {
+display: block;
+width: 80%;
+height: 28px;
+border-radius: 7px;
+margin-top: 13px;
+margin-right: 180px;
+}
+body{background-color: #E6E6E6}
+/*Surcharge de la class container-fluid. j'ai changé le padding left et droite à 0*/
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 20%;
+    margin: auto;
+}
