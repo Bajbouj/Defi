@@ -1,15 +1,20 @@
 /* j'ai changé la coleur de background en blue et le padding haut et bas */
 header{
-  background-color:#000;
+  background-color:#3a5795;
   padding:15px 0;
 }
 /*j'ai surchargé le style de boutton celle de bootstrap en changeant la couleur du text le background(hérité de son parent) ainsi la couleur de bordure*/
 .btn-primary {
     color: #fff;
     background-color: inherit;
-    border-color: inherit;
+    border-color: #3a5795;
 }
-
+/*j'ai changé la couleur, la taille et le style d'écriture celle des labels et le text entouré d'un span dans le boutton*/
+label, .btn-primary span{
+   color: #fff;
+font-size:14px;
+font-family: monospace;
+}
 /**/
 .fb{
   color: #fff;
@@ -22,7 +27,7 @@ header{
 .btn-ins{
   background-color: #69a74e;
 color:#fff;
-text-align:center;
+float:center;
 padding:10px;
 border-radius: 10px;}
 
@@ -33,7 +38,7 @@ width: 80%;
 height: 28px;
 border-radius: 7px;
 margin-top: 13px;
-margin-left: 200px;
+margin-right: 180px;
 }
 body{background-color: #fff}
 /*Surcharge de la class container-fluid. j'ai changé le padding left et droite à 0*/
@@ -43,24 +48,14 @@ body{background-color: #fff}
     padding-left: 0;
     padding-right: 0;
 }
-/*centré les images dans la carousel , la taille de la carousel est fix à 30 % et il est aussi responsive*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 30%;
     margin: auto;
 }
-
 .row-block{
 
     margin-top: 50px;
 }
-/*style des balise h3 et h4 */
 h3,h4{font-weight:bold;
-font-size:1.7em;color:#69a74e;}
-fieldset{margin-top:30px;}
-.logo,legend {color:#69a74e; }
-/*elargir la taille des case du tableau*/
-table tr th {width:200px;}
-/*flotter le tableau à droite de l'image*/
-#panier img{float:left;
-margin-right:30px;}
+font-size:1.7em;}
