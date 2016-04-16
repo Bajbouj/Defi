@@ -64,3 +64,4 @@ table tr th {width:200px;}
 /*flotter le tableau à droite de l'image*/
 #panier img{float:left;
 margin-right:30px;}
+p{text-style: justify;}
