@@ -4,10 +4,10 @@
 <br><br>
   <div class="row">
 
-<div class="col-xs-4"><img src="images/pc4.jpg"  class="img-responsive"/></div>
+<div class="col-xs-4" ng-repeat="p in pcs"><img ng-src="{{p.url}}"  class="img-responsive"/></div>
 <div class="col-xs-5">
   <h4>Description</h4>
-  <p ng-repeat="p in pcs">
+  <p >
     hhhhhhhhhhh {{p.disponible}}
   </p>
 </div>

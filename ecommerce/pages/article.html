@@ -1,36 +1,20 @@
-<div class="container text-center">
+
+<div class="container text-center" >
   <h3>Liste des Articles</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-    <a ui-sref="produit"> 
-       <img src="images/pc1.jpg" class="img-responsive" style="width:100%" alt="Image">
+  <div class="row" >
+    <div class="col-sm-3"  ng-repeat="pc in pcs" >
+    <a ui-sref="produit">
+       <img src="{{pc.url}}" class="img-responsive" style="width:100%" alt="Image">
      </a>
-      <div class="well">
-       <p>Some text..</p>
+      <div class="well" >
+       <p>{{pc.marque}}</p>
+       <p>{{pc.prix}}</p>
+       <p>{{pc.disponible}}</p>
       </div>
       <div class="row">
         <div class="col-sm-12"><button type="button" class="btn-ins">  <img src="images/add.png" />&nbsp;&nbsp;Add to panel</button></div>
       </div>
   </div>
-    <div class="col-sm-4">
-      <img src="images/pc2.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-      <div class="row">
-        <div class="col-sm-12"><button type="button" class="btn-ins">  <img src="images/add.png" />&nbsp;&nbsp;Add to panel</button></div>
-      </div>
-    </div>
-      <div class="col-sm-4">
-        <img src="images/pc3.jpg" class="img-responsive" style="width:100%" alt="Image">
-        <div class="well">
-         <p>Some text..</p>
-        </div>
-        <div class="row">
-          <div class="col-sm-12"><button type="button" class="btn-ins">  <img src="images/add.png" />&nbsp;&nbsp;Add to panel</button></div>
-        </div>
-        </div>
-
   </div>
 
 </div><br>

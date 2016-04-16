@@ -24,15 +24,14 @@ app
     $uibModalInstance.close();
   };
 
-}).controller("homeCtrl", function ($scope) {
+}).controller("homeCtrl", function ($scope,$resource) {
+  var p= $resource('pcs.json');
+  $scope.pcs=p.query();
+}).controller("articleCtrl", function ($scope,$resource) {
 
-}).controller("articleCtrl", function ($scope) {
 
-}).controller("produitCtrl", function ($scope,$resource) {
-  //consomation d'un fichier json
-var p= $resource('pcs.json');
-$scope.pcs=p.query();
-//console.log(user);
+}).controller("produitCtrl", function ($scope) {
+
 }).controller("panierCtrl", function ($scope) {
 
 });
